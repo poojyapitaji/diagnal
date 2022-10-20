@@ -1,0 +1,2 @@
+export const GET_NEXT_MOVIE_LIST = 'GET_NEXT_MOVIE_LIST';
+export const GET_MOVIE_BY_QUERY = 'GET_MOVIE_BY_QUERY';

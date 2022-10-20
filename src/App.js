@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useRef, useCallback } from "react";
+import { Navbar, MovieList } from "./components";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div
+        style={{ height: "200px" }}
+        className="grid grid-cols-3 gap-x-[30px] gap-y-[90px] p-5 mt-[40px] md:mt-[140px]">
+        <MovieList />
+      </div>
+    </>
   );
 }
 
