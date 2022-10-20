@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/diagnal/static/css/main.e90e6b9d.css",
+    "main.js": "/diagnal/static/js/main.edf87e95.js",
+    "static/media/TitilliumWeb-Regular.ttf": "/diagnal/static/media/TitilliumWeb-Regular.88fc88a1d67e79aaacde.ttf",
+    "index.html": "/diagnal/index.html",
+    "main.e90e6b9d.css.map": "/diagnal/static/css/main.e90e6b9d.css.map",
+    "main.edf87e95.js.map": "/diagnal/static/js/main.edf87e95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e90e6b9d.css",
+    "static/js/main.edf87e95.js"
+  ]
+}
